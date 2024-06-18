@@ -1,20 +1,19 @@
-/* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import './App.css';
-import BookingForm from './components/Bookingform';
+import Nav from './components/Nav';
+import Main from './components/Main';
+import Menu from './components/Menu';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Little Lemon Restaurant Table Booking</h1>
-      </header>
-      <main>
-        {/* <BookingForm />
-         */}
-         <BookingForm />
-      </main>
-    </div>
+    <>
+      <Nav />
+      <Main />
+      <Menu />
+      <Footer />
+    </>
+   
   );
 }
 
